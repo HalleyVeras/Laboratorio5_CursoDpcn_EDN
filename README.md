@@ -38,10 +38,11 @@ Trabalhamos em uma empresa de mídia que armazena arquivos de imagem e vídeo no
 6. Clique em **Criar bucket**.
 7. **Copie o ARN do bucket** (será usado depois).
 
-<img src="https://raw.githubusercontent.com/HalleyVeras/Laborat-rio2_CursoDpcn_EDN/refs/heads/main/Prints/painel_digitar_ec2.jpg" width="400" alt="AWS Logo">-
-<img src="https://raw.githubusercontent.com/HalleyVeras/Laborat-rio2_CursoDpcn_EDN/refs/heads/main/Prints/painel_digitar_ec2.jpg" width="400" alt="AWS Logo">-
-<img src="https://raw.githubusercontent.com/HalleyVeras/Laborat-rio2_CursoDpcn_EDN/refs/heads/main/Prints/painel_digitar_ec2.jpg" width="400" alt="AWS Logo">-
-_(Inserir print do bucket criado)_
+<img src="https://raw.githubusercontent.com/HalleyVeras/Laboratorio5_CursoDpcn_EDN/refs/heads/main/arquivos/painel_aws.jpg" width="400" alt="AWS Logo">-
+<img src="https://raw.githubusercontent.com/HalleyVeras/Laboratorio5_CursoDpcn_EDN/refs/heads/main/arquivos/Painel_s3.jpg" width="400" alt="AWS Logo">-
+<img src="https://raw.githubusercontent.com/HalleyVeras/Laboratorio5_CursoDpcn_EDN/refs/heads/main/arquivos/bucket_criado.jpg" width="400" alt="AWS Logo">-
+<img src="https://raw.githubusercontent.com/HalleyVeras/Laboratorio5_CursoDpcn_EDN/refs/heads/main/arquivos/arn_copiado.jpg" width="400" alt="AWS Logo">-
+
 
 ---
 
@@ -53,7 +54,10 @@ _(Inserir print do bucket criado)_
 5. Clique em **Criar tópico**.
 6. **Copie o ARN do tópico**.
 
-_(Inserir print do tópico SNS criado)_
+<img src="https://raw.githubusercontent.com/HalleyVeras/Laboratorio5_CursoDpcn_EDN/refs/heads/main/arquivos/painel_sns.jpg" width="400" alt="AWS Logo">-
+<img src="https://raw.githubusercontent.com/HalleyVeras/Laboratorio5_CursoDpcn_EDN/refs/heads/main/arquivos/topic_criado_1.jpg" width="400" alt="AWS Logo">-
+<img src="https://raw.githubusercontent.com/HalleyVeras/Laboratorio5_CursoDpcn_EDN/refs/heads/main/arquivos/topic_criado.jpg" width="400" alt="AWS Logo">-
+
 
 ---
 
@@ -64,7 +68,12 @@ _(Inserir print do tópico SNS criado)_
 4. Clique em **Criar assinatura**.
 5. Acesse seu e-mail e **confirme a assinatura**.
 
-_(Inserir print do e-mail de confirmação)_
+
+<img src="https://raw.githubusercontent.com/HalleyVeras/Laboratorio5_CursoDpcn_EDN/refs/heads/main/arquivos/criando_subscription.jpg" width="400" alt="AWS Logo">-
+<img src="https://raw.githubusercontent.com/HalleyVeras/Laboratorio5_CursoDpcn_EDN/refs/heads/main/arquivos/criando_subscription_final.jpg" width="400" alt="AWS Logo">-
+<img src="https://github.com/HalleyVeras/Laboratorio5_CursoDpcn_EDN/blob/main/arquivos/confirmacao_email.jpg?raw=true" width="400" alt="AWS Logo">-
+<img src="https://raw.githubusercontent.com/HalleyVeras/Laboratorio5_CursoDpcn_EDN/refs/heads/main/arquivos/subscripition_confirmacao.jpg" width="250" alt="AWS Logo">-
+
 
 ---
 
@@ -76,7 +85,10 @@ _(Inserir print do e-mail de confirmação)_
 5. Clique em **Criar fila**.
 6. **Copie o ARN da fila**.
 
-_(Inserir print da fila SQS criada)_
+<img src="https://github.com/HalleyVeras/Laboratorio5_CursoDpcn_EDN/blob/main/arquivos2/painel_sqs.jpg?raw=true" width="400" alt="AWS Logo">-
+<img src="https://github.com/HalleyVeras/Laboratorio5_CursoDpcn_EDN/blob/main/arquivos2/criando_fila.jpg?raw=true" width="400" alt="AWS Logo">-
+<img src="https://raw.githubusercontent.com/HalleyVeras/Laboratorio5_CursoDpcn_EDN/refs/heads/main/arquivos2/fila_criada.jpg" width="400" alt="AWS Logo">-
+
 
 ---
 
@@ -120,6 +132,8 @@ _(Inserir print da fila SQS criada)_
   ]
 }
 ```
+<img src="https://github.com/HalleyVeras/Laboratorio5_CursoDpcn_EDN/blob/main/arquivos2/politicas_sns_alterada.jpg?raw=true" width="400" alt="AWS Logo">-
+
 4. Clique em **Salvar alterações**.
 
 ## **Passo 6: Configurar Política da Fila SQS (SNS -> SQS)**
@@ -161,6 +175,8 @@ _(Inserir print da fila SQS criada)_
     ]
 }
 ```
+<img src="https://github.com/HalleyVeras/Laboratorio5_CursoDpcn_EDN/blob/main/arquivos2/alterando_politica_sqs_feita.jpg?raw=true" width="400" alt="AWS Logo">-
+
 ## **Passo 7: Configurar Notificações no S3**
 1. No console S3, acesse o bucket criado.
 2. Vá para **Propriedades** > **Notificações de eventos** > **Criar notificação de evento**.
@@ -176,5 +192,16 @@ _(Inserir print da fila SQS criada)_
 -  Fila SQS: Pesquise mensagens na fila (deve ter o JSON).
 -  Exclusão: No S3, exclua o arquivo.
 -  Email e Fila: Verifique novamente.
-_(Inserir print da configuração da notificação)_
+
+<img src="https://raw.githubusercontent.com/HalleyVeras/Laboratorio5_CursoDpcn_EDN/refs/heads/main/arquivos3/painel_s3.jpg" width="400" alt="AWS Logo">-
+<img src="https://raw.githubusercontent.com/HalleyVeras/Laboratorio5_CursoDpcn_EDN/refs/heads/main/arquivos3/propriedades_s3.jpg" width="400" alt="AWS Logo">-
+<img src="https://raw.githubusercontent.com/HalleyVeras/Laboratorio5_CursoDpcn_EDN/refs/heads/main/arquivos3/create_event_notification_1.jpg" width="400" alt="AWS Logo">-
+<img src="https://raw.githubusercontent.com/HalleyVeras/Laboratorio5_CursoDpcn_EDN/refs/heads/main/arquivos3/propriedades_s3_02.jpg" width="400" alt="AWS Logo">-
+<img src="https://github.com/HalleyVeras/Laboratorio5_CursoDpcn_EDN/blob/main/arquivos3/propriedades_s3_03.jpg?raw=true" width="400" alt="AWS Logo">-
+<img src="https://raw.githubusercontent.com/HalleyVeras/Laboratorio5_CursoDpcn_EDN/refs/heads/main/arquivos3/propriedades_s3_04_sucess.jpg" width="400" alt="AWS Logo">-
+<img src="https://raw.githubusercontent.com/HalleyVeras/Laboratorio5_CursoDpcn_EDN/refs/heads/main/arquivos3/create_subscription_sns.jpg" width="400" alt="AWS Logo">-
+<img src="https://raw.githubusercontent.com/HalleyVeras/Laboratorio5_CursoDpcn_EDN/refs/heads/main/arquivos3/notification_delete_objct_s3.jpg" width="400" alt="AWS Logo">-
+<img src="https://raw.githubusercontent.com/HalleyVeras/Laboratorio5_CursoDpcn_EDN/refs/heads/main/arquivos3/s3_notification.jpg" width="250" alt="AWS Logo">-
+<img src="https://raw.githubusercontent.com/HalleyVeras/Laboratorio5_CursoDpcn_EDN/refs/heads/main/arquivos3/s3_notification_subscription.jpg" width="200" alt="AWS Logo">-
+<img src="https://raw.githubusercontent.com/HalleyVeras/Laboratorio5_CursoDpcn_EDN/refs/heads/main/arquivos3/sns_visualização.jpg" width="400" alt="AWS Logo">-
 
