@@ -38,6 +38,9 @@ Trabalhamos em uma empresa de mídia que armazena arquivos de imagem e vídeo no
 6. Clique em **Criar bucket**.
 7. **Copie o ARN do bucket** (será usado depois).
 
+<img src="https://raw.githubusercontent.com/HalleyVeras/Laborat-rio2_CursoDpcn_EDN/refs/heads/main/Prints/painel_digitar_ec2.jpg" width="400" alt="AWS Logo">-
+<img src="https://raw.githubusercontent.com/HalleyVeras/Laborat-rio2_CursoDpcn_EDN/refs/heads/main/Prints/painel_digitar_ec2.jpg" width="400" alt="AWS Logo">-
+<img src="https://raw.githubusercontent.com/HalleyVeras/Laborat-rio2_CursoDpcn_EDN/refs/heads/main/Prints/painel_digitar_ec2.jpg" width="400" alt="AWS Logo">-
 _(Inserir print do bucket criado)_
 
 ---
