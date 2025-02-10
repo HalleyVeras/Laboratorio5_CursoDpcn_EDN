@@ -187,11 +187,7 @@ Trabalhamos em uma empresa de mídia que armazena arquivos de imagem e vídeo no
      - `s3:ObjectRemoved:*` (Exclusões)
    - Destino: **Tópico do SNS** > Selecione o seu tópico.
 4. Clique em **Salvar**.
--  Upload: No S3, carregue um arquivo.
--  Email: Verifique o e-mail.
--  Fila SQS: Pesquise mensagens na fila (deve ter o JSON).
--  Exclusão: No S3, exclua o arquivo.
--  Email e Fila: Verifique novamente.
+
 
 <img src="https://raw.githubusercontent.com/HalleyVeras/Laboratorio5_CursoDpcn_EDN/refs/heads/main/arquivos3/painel_s3.jpg" width="400" alt="AWS Logo">-
 <img src="https://raw.githubusercontent.com/HalleyVeras/Laboratorio5_CursoDpcn_EDN/refs/heads/main/arquivos3/propriedades_s3.jpg" width="400" alt="AWS Logo">-
@@ -200,8 +196,18 @@ Trabalhamos em uma empresa de mídia que armazena arquivos de imagem e vídeo no
 <img src="https://github.com/HalleyVeras/Laboratorio5_CursoDpcn_EDN/blob/main/arquivos3/propriedades_s3_03.jpg?raw=true" width="400" alt="AWS Logo">-
 <img src="https://raw.githubusercontent.com/HalleyVeras/Laboratorio5_CursoDpcn_EDN/refs/heads/main/arquivos3/propriedades_s3_04_sucess.jpg" width="400" alt="AWS Logo">-
 <img src="https://raw.githubusercontent.com/HalleyVeras/Laboratorio5_CursoDpcn_EDN/refs/heads/main/arquivos3/create_subscription_sns.jpg" width="400" alt="AWS Logo">-
-<img src="https://raw.githubusercontent.com/HalleyVeras/Laboratorio5_CursoDpcn_EDN/refs/heads/main/arquivos3/notification_delete_objct_s3.jpg" width="400" alt="AWS Logo">-
-<img src="https://raw.githubusercontent.com/HalleyVeras/Laboratorio5_CursoDpcn_EDN/refs/heads/main/arquivos3/s3_notification.jpg" width="250" alt="AWS Logo">-
-<img src="https://raw.githubusercontent.com/HalleyVeras/Laboratorio5_CursoDpcn_EDN/refs/heads/main/arquivos3/s3_notification_subscription.jpg" width="200" alt="AWS Logo">-
-<img src="https://raw.githubusercontent.com/HalleyVeras/Laboratorio5_CursoDpcn_EDN/refs/heads/main/arquivos3/sns_visualização.jpg" width="400" alt="AWS Logo">-
 
+## **troubleshooting:
+-  Upload: No S3, carregue um arquivo.
+-  Email: Verifique o e-mail.
+-  Fila SQS: Pesquise mensagens na fila (deve ter o JSON).
+-  Exclusão: No S3, exclua o arquivo.
+-  Email e Fila: Verifique novamente.
+
+<img src="https://github.com/HalleyVeras/Laboratorio5_CursoDpcn_EDN/blob/main/arquivos4/upload_object.png?raw=true" width="400" alt="AWS Logo">-
+<img src="https://github.com/HalleyVeras/Laboratorio5_CursoDpcn_EDN/blob/main/arquivos4/email_sqs_upload.png?raw=true" width="400" alt="AWS Logo">-
+<img src="https://github.com/HalleyVeras/Laboratorio5_CursoDpcn_EDN/blob/main/arquivos4/fila_json_sqs.png?raw=true" width="400" alt="AWS Logo">-
+<img src="https://github.com/HalleyVeras/Laboratorio5_CursoDpcn_EDN/blob/main/arquivos4/delete_object.png?raw=true" width="400" alt="AWS Logo">-
+<img src="https://github.com/HalleyVeras/Laboratorio5_CursoDpcn_EDN/blob/main/arquivos4/email_sqs_upload.png?raw=true" width="400" alt="AWS Logo">-
+<img src="https://github.com/HalleyVeras/Laboratorio5_CursoDpcn_EDN/blob/main/arquivos4/email_sqs_deleteobject.png?raw=true" width="400" alt="AWS Logo">-
+<img src="https://github.com/HalleyVeras/Laboratorio5_CursoDpcn_EDN/blob/main/arquivos4/fila_json_sqs_deleteobject.png?raw=true" width="400" alt="AWS Logo">-
